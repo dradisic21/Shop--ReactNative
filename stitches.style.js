@@ -1,5 +1,14 @@
 import { css } from "stitches-native";
 
+export const container = css({
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+    position: "relative",
+})
+
+
 export const button = css({
   justifyContent: "center",
   alignItems: "center",
@@ -25,4 +34,8 @@ export const text = css({
       },
     },
   },
+});
+
+export const input = css({
+  
 });
